@@ -102,7 +102,7 @@ const CreateDonationPage = () => {
               A single meal can make a world of difference. Thank you for sharing your surplus and helping us build a community free from hunger.
             </p>
              <img 
-                src="../../public/don3.jpg" 
+                src="/don3.jpg" 
                 alt="Motivational food sharing" 
                 className="rounded-lg shadow-lg mt-8"
                 onError={(e) => { e.target.onerror = null; e.target.src = 'https://placehold.co/400x300/E0E0E0/000000?text=Image+Not+Found'; }}
