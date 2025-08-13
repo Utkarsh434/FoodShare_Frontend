@@ -40,7 +40,7 @@ const LandingPage = () => {
           </div>
           <div className="md:w-1/2 flex justify-center">
             <img 
-              src="../../public/hero_section.webp" 
+              src="/hero_section.webp" 
               alt="Illustration of food donation" 
               className="rounded-lg shadow-2xl"
               onError={(e) => { e.target.onerror = null; e.target.src = 'https://placehold.co/600x400/E0E0E0/000000?text=Image+Not+Found'; }}
@@ -92,7 +92,7 @@ const LandingPage = () => {
               {/* This container now centers the image */}
               <div className="md:w-1/2 flex justify-center">
                   <img 
-                    src="../../public/keyFeatures.png" 
+                    src="/keyFeatures.png" 
                     alt="App screenshot on a map" 
                     className="rounded-lg shadow-xl"
                     onError={(e) => { e.target.onerror = null; e.target.src = 'https://placehold.co/500x350/E0E0E0/000000?text=Image+Not+Found'; }}
